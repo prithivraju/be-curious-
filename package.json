@@ -1,0 +1,33 @@
+{
+  "name": "rbi-learning-engine",
+  "version": "1.0.0",
+  "description": "RBI Grade B Phase-2 Interactive Learning System with Rauno Physics",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "export:obsidian": "node src/export/obsidian.js",
+    "export:notion": "node src/export/notion.js"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "framer-motion": "^11.0.0",
+    "zustand": "^4.5.0",
+    "lucide-react": "^0.400.0",
+    "date-fns": "^3.6.0",
+    "clsx": "^2.1.0",
+    "@google/generative-ai": "^0.21.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.4.0",
+    "vite": "^5.3.0"
+  }
+}
